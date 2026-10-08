@@ -1,0 +1,9 @@
+{
+  "Strategy": "class_weight",
+  "Seed": 44,
+  "Val_PR_AUC": 0.6918975966955344,
+  "Val_ROC_AUC": 0.8979134134473938,
+  "Val_F1": 0.6553323029366306,
+  "Epochs": 85,
+  "Seconds": 5.8
+}

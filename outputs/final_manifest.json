@@ -1,0 +1,146 @@
+{
+  "LSTM_default": [
+    {
+      "seed": 11,
+      "model": "outputs\\models\\LSTM_default_seed11_0b1da499.pt",
+      "cfg": {
+        "hidden": 64,
+        "layers": 1,
+        "bidir": false,
+        "dropout": 0.2,
+        "lr": 0.001,
+        "wd": 1e-05,
+        "batch": 256
+      },
+      "strategy": "ros"
+    },
+    {
+      "seed": 22,
+      "model": "outputs\\models\\LSTM_default_seed22_8e60b8f2.pt",
+      "cfg": {
+        "hidden": 64,
+        "layers": 1,
+        "bidir": false,
+        "dropout": 0.2,
+        "lr": 0.001,
+        "wd": 1e-05,
+        "batch": 256
+      },
+      "strategy": "ros"
+    },
+    {
+      "seed": 33,
+      "model": "outputs\\models\\LSTM_default_seed33_8710c6b1.pt",
+      "cfg": {
+        "hidden": 64,
+        "layers": 1,
+        "bidir": false,
+        "dropout": 0.2,
+        "lr": 0.001,
+        "wd": 1e-05,
+        "batch": 256
+      },
+      "strategy": "ros"
+    },
+    {
+      "seed": 44,
+      "model": "outputs\\models\\LSTM_default_seed44_0a060dee.pt",
+      "cfg": {
+        "hidden": 64,
+        "layers": 1,
+        "bidir": false,
+        "dropout": 0.2,
+        "lr": 0.001,
+        "wd": 1e-05,
+        "batch": 256
+      },
+      "strategy": "ros"
+    },
+    {
+      "seed": 55,
+      "model": "outputs\\models\\LSTM_default_seed55_4ddbe811.pt",
+      "cfg": {
+        "hidden": 64,
+        "layers": 1,
+        "bidir": false,
+        "dropout": 0.2,
+        "lr": 0.001,
+        "wd": 1e-05,
+        "batch": 256
+      },
+      "strategy": "ros"
+    }
+  ],
+  "LSTM_tuned": [
+    {
+      "seed": 11,
+      "model": "outputs\\models\\LSTM_tuned_seed11_bca74104.pt",
+      "cfg": {
+        "hidden": 256,
+        "layers": 1,
+        "bidir": true,
+        "dropout": 0.25708499050844935,
+        "lr": 0.002726966781945641,
+        "wd": 0.0003323472880832645,
+        "batch": 64
+      },
+      "strategy": "class_weight"
+    },
+    {
+      "seed": 22,
+      "model": "outputs\\models\\LSTM_tuned_seed22_38903460.pt",
+      "cfg": {
+        "hidden": 256,
+        "layers": 1,
+        "bidir": true,
+        "dropout": 0.25708499050844935,
+        "lr": 0.002726966781945641,
+        "wd": 0.0003323472880832645,
+        "batch": 64
+      },
+      "strategy": "class_weight"
+    },
+    {
+      "seed": 33,
+      "model": "outputs\\models\\LSTM_tuned_seed33_59e41a02.pt",
+      "cfg": {
+        "hidden": 256,
+        "layers": 1,
+        "bidir": true,
+        "dropout": 0.25708499050844935,
+        "lr": 0.002726966781945641,
+        "wd": 0.0003323472880832645,
+        "batch": 64
+      },
+      "strategy": "class_weight"
+    },
+    {
+      "seed": 44,
+      "model": "outputs\\models\\LSTM_tuned_seed44_84bda222.pt",
+      "cfg": {
+        "hidden": 256,
+        "layers": 1,
+        "bidir": true,
+        "dropout": 0.25708499050844935,
+        "lr": 0.002726966781945641,
+        "wd": 0.0003323472880832645,
+        "batch": 64
+      },
+      "strategy": "class_weight"
+    },
+    {
+      "seed": 55,
+      "model": "outputs\\models\\LSTM_tuned_seed55_b61f4bc5.pt",
+      "cfg": {
+        "hidden": 256,
+        "layers": 1,
+        "bidir": true,
+        "dropout": 0.25708499050844935,
+        "lr": 0.002726966781945641,
+        "wd": 0.0003323472880832645,
+        "batch": 64
+      },
+      "strategy": "class_weight"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+=== STEP 8 | device: cuda | output folder: outputs ===
+[saved] outputs\tables\Table4_test_performance.csv
+              Model        Accuracy       Precision          Recall              F1     BalancedAcc             MCC         ROC_AUC          PR_AUC
+Logistic Regression          0.8798          0.5855          0.7902          0.6726          0.8433          0.6112          0.9148          0.6396
+      Random Forest          0.9061          0.7111          0.6713          0.6906          0.8104          0.6357          0.9315          0.7458
+            XGBoost          0.9011          0.7011          0.6399          0.6691          0.7947          0.6120          0.9334          0.7471
+     LSTM (default) 0.8854 ± 0.0083 0.6177 ± 0.0323 0.7105 ± 0.0327 0.6597 ± 0.0127 0.8141 ± 0.0109 0.5942 ± 0.0152 0.9072 ± 0.0128 0.7008 ± 0.0234
+       LSTM (tuned) 0.8887 ± 0.0032 0.6218 ± 0.0162 0.7378 ± 0.0368 0.6741 ± 0.0094 0.8272 ± 0.0142 0.6114 ± 0.0119 0.9259 ± 0.0058 0.7297 ± 0.0085
+[saved] outputs\figures\Fig7_roc_pr_curves.png  (174 x 76 mm, 600 dpi)
+[saved] outputs\figures\Fig8_confusion_matrices.png  (108 x 69 mm, 600 dpi)
+[saved] outputs\tables\Table5_paired_bootstrap.csv
+
+Paired bootstrap (2000 resamples; positive = tuned LSTM better):
+                         Comparison Metric  Mean_diff  CI95_low  CI95_high Significant
+LSTM (tuned) - Logistic Regression PR_AUC     0.0880    0.0421     0.1329         yes
+LSTM (tuned) - Logistic Regression     F1     0.0015   -0.0208     0.0229          no
+      LSTM (tuned) - Random Forest PR_AUC    -0.0149   -0.0345     0.0038          no
+      LSTM (tuned) - Random Forest     F1    -0.0168   -0.0404     0.0081          no
+            LSTM (tuned) - XGBoost PR_AUC    -0.0162   -0.0381     0.0032          no
+            LSTM (tuned) - XGBoost     F1     0.0045   -0.0224     0.0334          no
+     LSTM (tuned) - LSTM (default) PR_AUC     0.0300    0.0048     0.0547         yes
+     LSTM (tuned) - LSTM (default)     F1     0.0145   -0.0053     0.0329          no
+
+(Fig 7/8 use seed-averaged LSTM probabilities; Table 4 and Table 5 use per-seed metrics averaged over seeds; Fig 8 baseline shown = Random Forest)
+[backup] outputs\backups\after_step8_20261008_065304.zip
+=== STEP 8 finished in 0.6 min ===

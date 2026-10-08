@@ -1,0 +1,2 @@
+=== STEP 5 | device: cuda | output folder: outputs ===
+Device: cuda | default config: {'hidden': 64, 'layers': 1, 'bidir': False, 'dropout': 0.2, 'lr': 0.001, 'wd': 1e-05, 'batch': 256} | seeds: [11, 22, 33]

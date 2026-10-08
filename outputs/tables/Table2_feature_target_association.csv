@@ -1,0 +1,18 @@
+Feature,Type,Test,Statistic,p_value,Effect_size,Effect_name,Median_purchase,Median_no_purchase,p_bonferroni
+PageValues,numerical,Mann-Whitney U,16951382.0,0.0,0.7256,rank-biserial r,16.7581,0.0,0.0
+ExitRates,numerical,Mann-Whitney U,5903681.5,0.0,-0.399,rank-biserial r,0.016,0.0284,0.0
+ProductRelated_Duration,numerical,Mann-Whitney U,13145025.5,0.0,0.3381,rank-biserial r,1109.9062,526.0,0.0
+ProductRelated,numerical,Mann-Whitney U,12856227.0,0.0,0.3087,rank-biserial r,29.0,16.0,0.0
+Administrative,numerical,Mann-Whitney U,12257665.5,0.0,0.2478,rank-biserial r,2.0,1.0,0.0
+Administrative_Duration,numerical,Mann-Whitney U,12193811.0,0.0,0.2413,rank-biserial r,52.3667,0.0,0.0
+BounceRates,numerical,Mann-Whitney U,7686495.5,0.0,-0.2175,rank-biserial r,0.0,0.0039,0.0
+Month,categorical,Chi-square,376.2798,0.0,0.1756,Cramer's V,,,0.0
+TrafficType,categorical,Chi-square,359.2248,0.0,0.1716,Cramer's V,,,0.0
+Informational,numerical,Mann-Whitney U,11078871.5,0.0,0.1278,rank-biserial r,0.0,0.0,0.0
+Informational_Duration,numerical,Mann-Whitney U,11018964.5,0.0,0.1217,rank-biserial r,0.0,0.0,0.0
+VisitorType,categorical,Chi-square,130.6676,0.0,0.1035,Cramer's V,,,0.0
+OperatingSystems,categorical,Chi-square,75.0699,0.0,0.0784,Cramer's V,,,0.0
+SpecialDay,numerical,Mann-Whitney U,9098004.5,0.0,-0.0738,rank-biserial r,0.0,0.0,0.0
+Browser,categorical,Chi-square,29.119,0.0038,0.0488,Cramer's V,,,0.0643
+Region,categorical,Chi-square,9.6794,0.2883,0.0282,Cramer's V,,,1.0
+Weekend,categorical,Chi-square,9.2048,0.0024,0.0275,Cramer's V,,,0.041

@@ -1,0 +1,11 @@
+=== STEP 4 | device: cuda | output folder: outputs ===
+LR: CV PR-AUC=0.6696 | test F1=0.6726  PR-AUC=0.6396  ROC-AUC=0.9148
+RF: CV PR-AUC=0.7542 | test F1=0.6906  PR-AUC=0.7458  ROC-AUC=0.9315
+XGB: CV PR-AUC=0.7529 | test F1=0.6691  PR-AUC=0.7471  ROC-AUC=0.9334
+[saved] outputs\tables\Table_baseline_models.csv
+Model  CV_PR_AUC  Accuracy  Precision  Recall     F1  ROC_AUC  PR_AUC
+   LR     0.6696    0.8798     0.5855  0.7902 0.6726   0.9148  0.6396
+   RF     0.7542    0.9061     0.7111  0.6713 0.6906   0.9315  0.7458
+  XGB     0.7529    0.9011     0.7011  0.6399 0.6691   0.9334  0.7471
+[backup] outputs\backups\after_step4_20261008_062630.zip
+=== STEP 4 finished in 3.3 min ===

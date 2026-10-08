@@ -1,0 +1,11 @@
+=== STEP 3 | device: cuda | output folder: outputs ===
+[saved] outputs\tables\Table_split_summary.csv
+     Split  Samples  Positives  Negatives  Positive_pct
+     Train     8543       1336       7207         15.64
+Validation     1831        286       1545         15.62
+      Test     1831        286       1545         15.62
+
+Feature matrix: 73 columns (10 numerical + 1 binary + 62 one-hot)
+LSTM input shape per sample: (timesteps = 73, features = 1)
+[backup] outputs\backups\after_step3_20261008_062314.zip
+=== STEP 3 finished in 0.0 min ===

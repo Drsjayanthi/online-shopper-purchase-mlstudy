@@ -1,0 +1,59 @@
+=== STEP 6 | device: cuda | output folder: outputs ===
+Device: cuda | study: lstm_shoppers_v2_79440b63_ep100 | finished trials so far: 0 | target: 50
+trial   0 | COMPLETE | val PR-AUC=0.6692 | best=0.6692
+trial   1 | COMPLETE | val PR-AUC=0.7033 | best=0.7033
+trial   2 | COMPLETE | val PR-AUC=0.1988 | best=0.7033
+trial   3 | COMPLETE | val PR-AUC=0.7331 | best=0.7331
+trial   4 | COMPLETE | val PR-AUC=0.7215 | best=0.7331
+trial   5 | COMPLETE | val PR-AUC=0.6547 | best=0.7331
+trial   6 | COMPLETE | val PR-AUC=0.2356 | best=0.7331
+trial   7 | COMPLETE | val PR-AUC=0.2177 | best=0.7331
+trial   8 | COMPLETE | val PR-AUC=0.7358 | best=0.7358
+trial   9 | COMPLETE | val PR-AUC=0.7006 | best=0.7358
+trial  10 | PRUNED   | val PR-AUC=0.6218 | best=0.7358
+trial  11 | COMPLETE | val PR-AUC=0.7363 | best=0.7363
+trial  12 | PRUNED   | val PR-AUC=0.6765 | best=0.7363
+trial  13 | COMPLETE | val PR-AUC=0.7244 | best=0.7363
+trial  14 | COMPLETE | val PR-AUC=0.2238 | best=0.7363
+trial  15 | COMPLETE | val PR-AUC=0.7250 | best=0.7363
+trial  16 | PRUNED   | val PR-AUC=0.5646 | best=0.7363
+trial  17 | PRUNED   | val PR-AUC=0.6957 | best=0.7363
+trial  18 | COMPLETE | val PR-AUC=0.7313 | best=0.7363
+trial  19 | COMPLETE | val PR-AUC=0.7415 | best=0.7415
+trial  20 | COMPLETE | val PR-AUC=0.7463 | best=0.7463
+trial  21 | COMPLETE | val PR-AUC=0.7289 | best=0.7463
+trial  22 | COMPLETE | val PR-AUC=0.7379 | best=0.7463
+trial  23 | COMPLETE | val PR-AUC=0.7330 | best=0.7463
+trial  24 | COMPLETE | val PR-AUC=0.7323 | best=0.7463
+trial  25 | COMPLETE | val PR-AUC=0.7126 | best=0.7463
+trial  26 | COMPLETE | val PR-AUC=0.7407 | best=0.7463
+trial  27 | COMPLETE | val PR-AUC=0.7182 | best=0.7463
+trial  28 | COMPLETE | val PR-AUC=0.7314 | best=0.7463
+trial  29 | COMPLETE | val PR-AUC=0.7291 | best=0.7463
+trial  30 | COMPLETE | val PR-AUC=0.7263 | best=0.7463
+trial  31 | PRUNED   | val PR-AUC=0.6555 | best=0.7463
+trial  32 | PRUNED   | val PR-AUC=0.7001 | best=0.7463
+trial  33 | COMPLETE | val PR-AUC=0.7297 | best=0.7463
+trial  34 | COMPLETE | val PR-AUC=0.5909 | best=0.7463
+trial  35 | COMPLETE | val PR-AUC=0.7253 | best=0.7463
+trial  36 | COMPLETE | val PR-AUC=0.7329 | best=0.7463
+trial  37 | COMPLETE | val PR-AUC=0.7259 | best=0.7463
+trial  38 | COMPLETE | val PR-AUC=0.7112 | best=0.7463
+trial  39 | COMPLETE | val PR-AUC=0.7342 | best=0.7463
+trial  40 | COMPLETE | val PR-AUC=0.7298 | best=0.7463
+trial  41 | COMPLETE | val PR-AUC=0.7192 | best=0.7463
+trial  42 | COMPLETE | val PR-AUC=0.2411 | best=0.7463
+trial  43 | PRUNED   | val PR-AUC=0.7073 | best=0.7463
+trial  44 | COMPLETE | val PR-AUC=0.7031 | best=0.7463
+trial  45 | COMPLETE | val PR-AUC=0.7350 | best=0.7463
+trial  46 | COMPLETE | val PR-AUC=0.7356 | best=0.7463
+trial  47 | COMPLETE | val PR-AUC=0.7311 | best=0.7463
+trial  48 | COMPLETE | val PR-AUC=0.7199 | best=0.7463
+trial  49 | COMPLETE | val PR-AUC=0.7300 | best=0.7463
+[saved] outputs\tables\Table_optuna_trials.csv
+
+Trials: 50 (pruned: 7) | Best val PR-AUC = 0.7463
+Best params: {'hidden': 256, 'layers': 1, 'bidir': True, 'dropout': 0.25708499050844935, 'lr': 0.002726966781945641, 'wd': 0.0003323472880832645, 'batch': 64, 'strategy': 'class_weight'}
+[saved] outputs\figures\Fig5_optuna_history_importance.png  (174 x 64 mm, 600 dpi)
+[backup] outputs\backups\after_step6_20261008_073308.zip
+=== STEP 6 finished in 27.3 min ===

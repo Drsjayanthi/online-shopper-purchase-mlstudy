@@ -1,0 +1,29 @@
+=== STEP 9 | device: cuda | output folder: outputs ===
+seed 11: baseline test PR-AUC = 0.7386
+seed 22: baseline test PR-AUC = 0.7196
+seed 33: baseline test PR-AUC = 0.7365
+seed 44: baseline test PR-AUC = 0.7222
+seed 55: baseline test PR-AUC = 0.7317
+[saved] outputs\tables\Table6_permutation_importance.csv
+Tuned LSTM, 5 seeds x 20 permutations per feature group (mean baseline test PR-AUC = 0.7297)
+                 Feature  Mean_drop     SD
+             PageValues     0.5266 0.0104
+              ExitRates     0.1647 0.0533
+            BounceRates     0.1140 0.0640
+         ProductRelated     0.0529 0.0190
+ProductRelated_Duration     0.0482 0.0174
+                  Month     0.0478 0.0107
+         Administrative     0.0240 0.0112
+ Informational_Duration     0.0136 0.0065
+          Informational     0.0116 0.0085
+Administrative_Duration     0.0101 0.0077
+             SpecialDay     0.0068 0.0071
+            VisitorType     0.0028 0.0025
+                Weekend     0.0003 0.0063
+            TrafficType    -0.0001 0.0006
+                 Region    -0.0002 0.0006
+                Browser    -0.0010 0.0020
+       OperatingSystems    -0.0048 0.0034
+[saved] outputs\figures\Fig9_permutation_importance.png  (85 x 71 mm, 600 dpi)
+[backup] outputs\backups\after_step9_20261008_065353.zip
+=== STEP 9 finished in 0.8 min ===

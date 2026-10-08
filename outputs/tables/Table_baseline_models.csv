@@ -1,0 +1,4 @@
+Model,CV_PR_AUC,Accuracy,Precision,Recall,F1,ROC_AUC,PR_AUC,best_params
+LR,0.6696,0.8798,0.5855,0.7902,0.6726,0.9148,0.6396,"{""C"": 0.01153}"
+RF,0.7542,0.9061,0.7111,0.6713,0.6906,0.9315,0.7458,"{""max_depth"": 18, ""max_features"": 0.59724, ""min_samples_leaf"": 13, ""n_estimators"": 240}"
+XGB,0.7529,0.9011,0.7011,0.6399,0.6691,0.9334,0.7471,"{""colsample_bytree"": 0.77135, ""learning_rate"": 0.01615, ""max_depth"": 6, ""min_child_weight"": 1, ""n_estimators"": 444, ""reg_lambda"": 9.134, ""subsample"": 0.9089}"

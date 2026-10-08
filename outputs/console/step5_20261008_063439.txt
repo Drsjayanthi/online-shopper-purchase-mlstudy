@@ -1,0 +1,20 @@
+=== STEP 5 | device: cuda | output folder: outputs ===
+Device: cuda | default config: {'hidden': 64, 'layers': 1, 'bidir': False, 'dropout': 0.2, 'lr': 0.001, 'wd': 1e-05, 'batch': 256} | seeds: [11, 22, 33]
+none          done
+class_weight  done
+ros           done
+smotenc       done
+[saved] outputs\tables\Table3_imbalance_strategies_raw.csv
+[saved] outputs\tables\Table3_imbalance_strategies_summary.csv
+             Val_PR_AUC         Val_ROC_AUC          Val_F1        
+                   mean     std        mean     std    mean     std
+Strategy                                                           
+none             0.3642  0.2753      0.7004  0.1749  0.4325  0.2137
+class_weight     0.6843  0.0104      0.9061  0.0027  0.6663  0.0021
+ros              0.6704  0.0392      0.8934  0.0222  0.6524  0.0267
+smotenc          0.6355  0.0021      0.8720  0.0042  0.6221  0.0208
+
+Best strategy for default LSTM (mean validation PR-AUC): class_weight
+[saved] outputs\figures\Fig4_imbalance_strategies.png  (174 x 64 mm, 600 dpi)
+[backup] outputs\backups\after_step5_20261008_063512.zip
+=== STEP 5 finished in 0.5 min ===

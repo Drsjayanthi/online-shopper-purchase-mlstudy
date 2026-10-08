@@ -1,0 +1,9 @@
+Comparison,Metric,Mean_diff,CI95_low,CI95_high,Significant
+LSTM (tuned) - Logistic Regression,PR_AUC,0.0876,0.0434,0.1316,yes
+LSTM (tuned) - Logistic Regression,F1,0.0003,-0.0221,0.0225,no
+LSTM (tuned) - Random Forest,PR_AUC,-0.0153,-0.0357,0.0037,no
+LSTM (tuned) - Random Forest,F1,-0.018,-0.0434,0.007,no
+LSTM (tuned) - XGBoost,PR_AUC,-0.0165,-0.0388,0.0037,no
+LSTM (tuned) - XGBoost,F1,0.0033,-0.0246,0.0339,no
+LSTM (tuned) - LSTM (default),PR_AUC,0.0343,0.0089,0.0588,yes
+LSTM (tuned) - LSTM (default),F1,0.0144,-0.0071,0.0376,no

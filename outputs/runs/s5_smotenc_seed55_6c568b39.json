@@ -1,0 +1,9 @@
+{
+  "Strategy": "smotenc",
+  "Seed": 55,
+  "Val_PR_AUC": 0.6263038517757611,
+  "Val_ROC_AUC": 0.8761423042976441,
+  "Val_F1": 0.6181277860326895,
+  "Epochs": 30,
+  "Seconds": 3.4
+}

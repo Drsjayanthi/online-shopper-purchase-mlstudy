@@ -1,0 +1,11 @@
+{
+  "Model": "XGB",
+  "CV_PR_AUC": 0.7529390998877378,
+  "Accuracy": 0.9011469142545058,
+  "Precision": 0.7011494252873564,
+  "Recall": 0.6398601398601399,
+  "F1": 0.6691042047531993,
+  "ROC_AUC": 0.9333899110598141,
+  "PR_AUC": 0.747126611184161,
+  "best_params": "{\"colsample_bytree\": 0.77135, \"learning_rate\": 0.01615, \"max_depth\": 6, \"min_child_weight\": 1, \"n_estimators\": 444, \"reg_lambda\": 9.134, \"subsample\": 0.9089}"
+}

@@ -1,0 +1,17 @@
+{
+  "raw_shape": [
+    12330,
+    18
+  ],
+  "missing": 0,
+  "duplicates": 125,
+  "dedup_shape": [
+    12205,
+    18
+  ],
+  "class_counts": {
+    "0": 10297,
+    "1": 1908
+  },
+  "imbalance_ratio": 5.396750524109015
+}

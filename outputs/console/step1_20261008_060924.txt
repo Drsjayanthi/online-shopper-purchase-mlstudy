@@ -1,0 +1,52 @@
+=== STEP 1 | device: cuda | output folder: outputs ===
+Shape: (12330, 18)
+
+Data types:
+ Administrative               int64
+Administrative_Duration    float64
+Informational                int64
+Informational_Duration     float64
+ProductRelated               int64
+ProductRelated_Duration    float64
+BounceRates                float64
+ExitRates                  float64
+PageValues                 float64
+SpecialDay                 float64
+Month                       object
+OperatingSystems             int64
+Browser                      int64
+Region                       int64
+TrafficType                  int64
+VisitorType                 object
+Weekend                      int64
+Revenue                      int64
+
+Missing values (total): 0
+Duplicate rows: 125 (1.01%) -> removed for all downstream steps
+Shape after de-duplication: (12205, 18)
+
+Class distribution (after de-duplication):
+         count  percent
+Revenue                
+0        10297    84.37
+1         1908    15.63
+Imbalance ratio (neg:pos) = 5.40 : 1
+
+Categorical cardinality: {'Month': 10, 'OperatingSystems': 8, 'Browser': 13, 'Region': 9, 'TrafficType': 20, 'VisitorType': 3}
+[saved] outputs\tables\Table1_descriptive_statistics.csv
+
+Descriptive statistics (numerical):
+                            count      mean       std  min      25%      50%       75%        max   skew
+Administrative           12205.0     2.339     3.330  0.0    0.000    1.000     4.000     27.000  1.947
+Administrative_Duration  12205.0    81.646   177.492  0.0    0.000    9.000    94.700   3398.750  5.592
+Informational            12205.0     0.509     1.276  0.0    0.000    0.000     0.000     24.000  4.014
+Informational_Duration   12205.0    34.825   141.425  0.0    0.000    0.000     0.000   2549.375  7.540
+ProductRelated           12205.0    32.046    44.594  0.0    8.000   18.000    38.000    705.000  4.333
+ProductRelated_Duration  12205.0  1206.982  1919.601  0.0  193.000  608.943  1477.155  63973.522  7.253
+PageValues               12205.0     5.950    18.654  0.0    0.000    0.000     0.000    361.764  6.351
+BounceRates              12205.0     0.020     0.045  0.0    0.000    0.003     0.017      0.200  3.162
+ExitRates                12205.0     0.041     0.046  0.0    0.014    0.025     0.049      0.200  2.235
+SpecialDay               12205.0     0.062     0.200  0.0    0.000    0.000     0.000      1.000  3.286
+[saved] outputs\figures\Fig1_class_distribution.png  (85 x 58 mm, 600 dpi)
+[backup] outputs\backups\after_step1_20261008_060925.zip
+=== STEP 1 finished in 0.0 min ===

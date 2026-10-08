@@ -1,0 +1,15 @@
+{
+  "params": {
+    "hidden": 256,
+    "layers": 1,
+    "bidir": true,
+    "dropout": 0.25708499050844935,
+    "lr": 0.002726966781945641,
+    "wd": 0.0003323472880832645,
+    "batch": 64,
+    "strategy": "class_weight"
+  },
+  "val_pr_auc": 0.7462947700716279,
+  "study": "lstm_shoppers_v2_79440b63_ep100",
+  "n_trials": 50
+}

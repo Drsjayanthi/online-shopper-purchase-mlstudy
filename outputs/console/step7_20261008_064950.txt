@@ -1,0 +1,37 @@
+=== STEP 7 | device: cuda | output folder: outputs ===
+Default LSTM : {'hidden': 64, 'layers': 1, 'bidir': False, 'dropout': 0.2, 'lr': 0.001, 'wd': 1e-05, 'batch': 256} | strategy=class_weight
+Tuned LSTM   : {'hidden': 128, 'layers': 1, 'bidir': True, 'dropout': 0.3760208091856715, 'lr': 0.003996098775917546, 'wd': 1.2655328374899181e-06, 'batch': 64} | strategy=none
+LSTM_default seed 11: val PR-AUC=0.6799, epochs=62 
+LSTM_default seed 22: val PR-AUC=0.7106, epochs=150 
+LSTM_default seed 33: val PR-AUC=0.7032, epochs=118 
+LSTM_default seed 44: val PR-AUC=0.6955, epochs=102 
+LSTM_default seed 55: val PR-AUC=0.6970, epochs=109 
+
+LSTM_default test metrics (mean ± SD over 5 seeds):
+             mean      sd
+Accuracy   0.8854  0.0083
+Precision  0.6177  0.0323
+Recall     0.7105  0.0327
+F1         0.6597  0.0127
+ROC_AUC    0.9072  0.0128
+PR_AUC     0.7008  0.0234
+MCC        0.5942  0.0152
+LSTM_tuned seed 11: val PR-AUC=0.7379, epochs=59 
+LSTM_tuned seed 22: val PR-AUC=0.7403, epochs=44 
+LSTM_tuned seed 33: val PR-AUC=0.7422, epochs=48 
+LSTM_tuned seed 44: val PR-AUC=0.7456, epochs=46 
+LSTM_tuned seed 55: val PR-AUC=0.7457, epochs=57 
+
+LSTM_tuned test metrics (mean ± SD over 5 seeds):
+             mean      sd
+Accuracy   0.8887  0.0032
+Precision  0.6218  0.0162
+Recall     0.7378  0.0368
+F1         0.6741  0.0094
+ROC_AUC    0.9259  0.0058
+PR_AUC     0.7297  0.0085
+MCC        0.6114  0.0119
+[saved] outputs\tables\Table_final_runs_per_seed.csv
+[saved] outputs\figures\Fig6_learning_curves.png  (174 x 61 mm, 600 dpi)
+[backup] outputs\backups\after_step7_20261008_065226.zip
+=== STEP 7 finished in 2.6 min ===
